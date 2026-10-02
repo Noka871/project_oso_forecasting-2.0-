@@ -1,0 +1,65 @@
+2026-03-10 23:25:13 - OzoneForecasting - INFO - ============================================================
+2026-03-10 23:25:13 - OzoneForecasting - INFO - 🌍 ЗАПУСК ПРИЛОЖЕНИЯ OSO FORECASTING С ЭКСПЕРИМЕНТАЛЬНЫМ РЕЖИМОМ
+2026-03-10 23:25:13 - OzoneForecasting - INFO - ============================================================
+2026-03-10 23:25:14 - OzoneForecasting - INFO - 🚀 Запуск приложения OSO Forecasting с экспериментальным режимом
+2026-03-10 23:25:14 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-03-10 23:25:14 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2026-03-10 23:25:16 - OzoneForecasting - INFO - ✅ Интерфейс приложения инициализирован с экспериментальным режимом
+2026-03-10 23:31:10 - OzoneForecasting - INFO - Вызов функции: load_demo_data
+2026-03-10 23:31:10 - OzoneForecasting - INFO - Пользователь запросил загрузку демонстрационных данных
+2026-03-10 23:31:10 - OzoneForecasting - INFO - 📊 Начало операции: Создание демонстрационных данных ОСО
+2026-03-10 23:31:10 - OzoneForecasting - INFO - Функция load_demo_data выполнена успешно
+2026-03-10 23:31:10 - OzoneForecasting - INFO - Генерация данных за период: 1960-2024
+2026-03-10 23:31:10 - OzoneForecasting - INFO - Создано демонстрационных данных: 780 записей
+2026-03-10 23:31:10 - OzoneForecasting - INFO - ✅ Создание демонстрационных данных ОСО завершена. Размер данных: (780, 7)
+2026-03-10 23:31:10 - OzoneForecasting - INFO - Демо-данные успешно созданы и загружены в интерфейс
+2026-03-10 23:31:15 - OzoneForecasting - INFO - Вызов функции: train_model
+2026-03-10 23:31:15 - OzoneForecasting - INFO - Начало процесса обучения модели
+2026-03-10 23:31:15 - OzoneForecasting - INFO - Запуск потока обучения модели
+2026-03-10 23:31:15 - OzoneForecasting - INFO - Функция train_model выполнена успешно
+2026-03-10 23:31:22 - OzoneForecasting - INFO - 🚀 Начало обучения модели: OzoneHybridModel (Conv1D + LSTM)
+2026-03-10 23:31:22 - OzoneForecasting - INFO - Вызов функции: prepare_data
+2026-03-10 23:31:22 - OzoneForecasting - INFO - Подготовка данных: 780 точек, длина последовательности: 12
+2026-03-10 23:31:22 - OzoneForecasting - INFO - Данные подготовлены: X.shape=(768, 12, 1), y.shape=(768,)
+2026-03-10 23:31:22 - OzoneForecasting - INFO - Функция prepare_data выполнена успешно
+2026-03-10 23:31:22 - OzoneForecasting - INFO - Разделение данных: train=(614, 12, 1), validation=(154, 12, 1)
+2026-03-10 23:31:22 - OzoneForecasting - INFO - Построение модели с входной формой: (12, 1)
+2026-03-10 23:31:22 - OzoneForecasting - INFO - Модель успешно скомпилирована
+2026-03-10 23:31:22 - OzoneForecasting - INFO - Начало обучения на 50 эпох
+2026-03-10 23:31:22 - OzoneForecasting - INFO - 🎯 Начало обучения нейросети
+2026-03-10 23:31:46 - OzoneForecasting - INFO - 🏁 Обучение нейросети завершено
+2026-03-10 23:31:46 - OzoneForecasting - INFO - Оценка качества модели...
+2026-03-10 23:31:47 - OzoneForecasting - INFO - Обучение завершено! Метрики: MAE=13.610, RMSE=16.006
+2026-03-10 23:31:47 - OzoneForecasting - INFO - ✅ Модель OzoneHybridModel (Conv1D + LSTM) обучена успешно. Время: 0:00:24.987634
+2026-03-10 23:31:47 - OzoneForecasting - INFO - Обучение модели завершено успешно
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Вызов функции: run_comparison
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Запуск сравнительного анализа архитектур
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Запуск потока сравнения моделей
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Функция run_comparison выполнена успешно
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Инициализирован ModelComparator для сравнения архитектур
+2026-03-10 23:31:57 - OzoneForecasting - INFO - 📊 Начало операции: Создание демонстрационных данных ОСО
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Генерация данных за период: 1960-2024
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Создано демонстрационных данных: 780 записей
+2026-03-10 23:31:57 - OzoneForecasting - INFO - ✅ Создание демонстрационных данных ОСО завершена. Размер данных: (780, 7)
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Данные подготовлены: train=(614, 12, 1), val=(154, 12, 1)
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Построено 6 моделей для сравнения
+2026-03-10 23:31:57 - OzoneForecasting - INFO - Обучение модели: LSTM
+2026-03-10 23:32:09 - OzoneForecasting - INFO - Модель LSTM: MAE=14.463, RMSE=16.666, R²=-0.089, Время=11.3с
+2026-03-10 23:32:09 - OzoneForecasting - INFO - Обучение модели: Deep_LSTM
+2026-03-10 23:32:33 - OzoneForecasting - INFO - Модель Deep_LSTM: MAE=14.036, RMSE=16.204, R²=-0.029, Время=23.6с
+2026-03-10 23:32:33 - OzoneForecasting - INFO - Обучение модели: Bidirectional_LSTM
+2026-03-10 23:32:49 - OzoneForecasting - INFO - Модель Bidirectional_LSTM: MAE=14.038, RMSE=16.221, R²=-0.031, Время=14.4с
+2026-03-10 23:32:49 - OzoneForecasting - INFO - Обучение модели: GRU
+2026-03-10 23:33:02 - OzoneForecasting - INFO - Модель GRU: MAE=14.073, RMSE=15.973, R²=-0.000, Время=12.4с
+2026-03-10 23:33:02 - OzoneForecasting - INFO - Обучение модели: CNN
+2026-03-10 23:33:10 - OzoneForecasting - INFO - Модель CNN: MAE=18.445, RMSE=20.809, R²=-0.697, Время=8.0с
+2026-03-10 23:33:10 - OzoneForecasting - INFO - Обучение модели: CNN_LSTM_Hybrid
+2026-03-10 23:33:28 - OzoneForecasting - INFO - Модель CNN_LSTM_Hybrid: MAE=14.222, RMSE=16.156, R²=-0.023, Время=17.4с
+2026-03-10 23:33:28 - OzoneForecasting - INFO - Сравнение моделей завершено успешно
+2026-03-10 23:33:28 - OzoneForecasting - INFO - Создана сравнительная таблица моделей
+2026-03-10 23:33:42 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2026-03-10 23:33:42 - OzoneForecasting - INFO - Запуск прогноза на 12 месяцев с моделью LSTM
+2026-03-10 23:33:42 - OzoneForecasting - INFO - Прогноз на 12 месяцев успешно выполнен с моделью LSTM
+2026-03-10 23:33:43 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2026-03-10 23:33:52 - OzoneForecasting - INFO - ✅ Приложение завершило работу нормально

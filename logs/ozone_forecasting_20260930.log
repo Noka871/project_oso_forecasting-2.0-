@@ -1,0 +1,30 @@
+2026-09-30 15:20:31 - OzoneForecasting - INFO - Запуск приложения
+2026-09-30 15:20:31 - OzoneForecasting - INFO - Запуск приложения
+2026-09-30 15:20:31 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-09-30 15:20:31 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2026-09-30 15:20:32 - OzoneForecasting - INFO - Интерфейс инициализирован
+2026-09-30 15:21:18 - OzoneForecasting - INFO - Загружено ОСО: 6940 дней -> 228 месяцев
+2026-09-30 15:21:21 - OzoneForecasting - INFO - Загружена плотность: 6858 дней -> 226 месяцев
+2026-09-30 15:21:21 - OzoneForecasting - INFO - Объединено: 226 месяцев с ОСО и плотностью
+2026-09-30 15:21:21 - OzoneForecasting - INFO - Плотность добавлена: 226 записей
+2026-09-30 15:21:21 - OzoneForecasting - INFO - Загружено из C:/Users/Admin/Documents/!= Ozone 2006-2024 =!.txt
+2026-09-30 15:21:25 - OzoneForecasting - INFO - Вызов: train_model
+2026-09-30 15:21:25 - OzoneForecasting - INFO - Начало обучения: OzoneHybridModel (Conv1D + LSTM)
+2026-09-30 15:21:25 - OzoneForecasting - INFO - Успешно: train_model
+2026-09-30 15:21:25 - OzoneForecasting - INFO - Вызов: prepare_data
+2026-09-30 15:21:25 - OzoneForecasting - INFO - Данные подготовлены: X=(214, 12, 1), y=(214,)
+2026-09-30 15:21:25 - OzoneForecasting - INFO - Успешно: prepare_data
+2026-09-30 15:21:25 - OzoneForecasting - INFO - Построение модели: (12, 1)
+2026-09-30 15:21:26 - OzoneForecasting - INFO - Начало обучения
+2026-09-30 15:21:44 - OzoneForecasting - INFO - Обучение завершено
+2026-09-30 15:21:45 - OzoneForecasting - INFO - Обучение завершено: MAE=11.806, RMSE=15.047, R2=0.863
+2026-09-30 15:21:45 - OzoneForecasting - INFO - Модель OzoneHybridModel (Conv1D + LSTM) обучена за 0:00:19.547648
+2026-09-30 15:23:59 - OzoneForecasting - INFO - Вызов: run_comparison
+2026-09-30 15:23:59 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-09-30 15:23:59 - OzoneForecasting - INFO - Успешно: run_comparison
+2026-09-30 15:23:59 - OzoneForecasting - INFO - Инициализирован ModelComparator
+2026-09-30 15:25:51 - OzoneForecasting - INFO - Вызов: run_forecast
+2026-09-30 15:25:51 - OzoneForecasting - INFO - Вызов: forecast
+2026-09-30 15:25:53 - OzoneForecasting - INFO - Успешно: forecast
+2026-09-30 15:25:55 - OzoneForecasting - INFO - Успешно: run_forecast
+2026-09-30 21:56:32 - OzoneForecasting - INFO - Приложение завершено

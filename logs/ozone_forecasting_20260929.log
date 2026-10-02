@@ -1,0 +1,101 @@
+2026-09-29 16:03:47 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 16:03:47 - OzoneForecasting - INFO - Запуск приложения OSO Forecasting
+2026-09-29 16:03:47 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-09-29 16:03:47 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2026-09-29 16:03:47 - OzoneForecasting - INFO - Интерфейс инициализирован
+2026-09-29 16:04:39 - OzoneForecasting - INFO - Вызов функции: load_demo_data
+2026-09-29 16:04:39 - OzoneForecasting - INFO - 📊 Начало операции: Создание демонстрационных данных ОСО
+2026-09-29 16:04:39 - OzoneForecasting - INFO - Функция load_demo_data выполнена успешно
+2026-09-29 16:04:39 - OzoneForecasting - INFO - Генерация данных за период: 1960-2024
+2026-09-29 16:04:39 - OzoneForecasting - INFO - Создано демонстрационных данных: 780 записей
+2026-09-29 16:04:39 - OzoneForecasting - INFO - ✅ Создание демонстрационных данных ОСО завершена. Размер данных: (780, 7)
+2026-09-29 16:04:44 - OzoneForecasting - INFO - Вызов функции: train_model
+2026-09-29 16:04:44 - OzoneForecasting - INFO - 🚀 Начало обучения модели: OzoneHybridModel (Conv1D + LSTM)
+2026-09-29 16:04:44 - OzoneForecasting - INFO - Функция train_model выполнена успешно
+2026-09-29 16:04:44 - OzoneForecasting - INFO - Вызов функции: prepare_data
+2026-09-29 16:04:44 - OzoneForecasting - INFO - Данные подготовлены: X=(768, 12, 1), y=(768,)
+2026-09-29 16:04:44 - OzoneForecasting - INFO - Функция prepare_data выполнена успешно
+2026-09-29 16:04:44 - OzoneForecasting - INFO - Построение модели: (12, 1)
+2026-09-29 16:04:47 - OzoneForecasting - INFO - Начало обучения
+2026-09-29 16:05:16 - OzoneForecasting - INFO - Обучение завершено
+2026-09-29 16:05:17 - OzoneForecasting - INFO - Обучение завершено: MAE=5.909, RMSE=7.389, R2=0.786
+2026-09-29 16:05:17 - OzoneForecasting - INFO - ✅ Модель OzoneHybridModel (Conv1D + LSTM) обучена успешно. Время: 0:00:33.122451
+2026-09-29 16:05:21 - OzoneForecasting - INFO - Вызов функции: run_comparison
+2026-09-29 16:05:21 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-09-29 16:05:21 - OzoneForecasting - INFO - Функция run_comparison выполнена успешно
+2026-09-29 16:05:21 - OzoneForecasting - INFO - Инициализирован ModelComparator
+2026-09-29 16:08:07 - OzoneForecasting - INFO - Вызов функции: run_forecast
+2026-09-29 16:08:07 - OzoneForecasting - INFO - Вызов функции: forecast
+2026-09-29 16:08:08 - OzoneForecasting - INFO - Функция forecast выполнена успешно
+2026-09-29 16:08:10 - OzoneForecasting - INFO - Функция run_forecast выполнена успешно
+2026-09-29 16:09:23 - OzoneForecasting - INFO - Приложение завершено
+2026-09-29 16:29:56 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 16:29:57 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 16:29:57 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-09-29 16:29:57 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2026-09-29 16:29:58 - OzoneForecasting - INFO - Интерфейс инициализирован
+2026-09-29 16:30:06 - OzoneForecasting - INFO - Вызов: load_demo_data
+2026-09-29 16:30:06 - OzoneForecasting - INFO - Операция: Создание демонстрационных данных ОСО
+2026-09-29 16:30:06 - OzoneForecasting - INFO - Успешно: load_demo_data
+2026-09-29 16:30:06 - OzoneForecasting - INFO - Создано демо-данных: 780 записей
+2026-09-29 16:30:06 - OzoneForecasting - INFO - Создание демонстрационных данных ОСО завершена. Размер: (780, 7)
+2026-09-29 16:30:16 - OzoneForecasting - INFO - Вызов: load_demo_data
+2026-09-29 16:30:16 - OzoneForecasting - INFO - Операция: Создание демонстрационных данных ОСО
+2026-09-29 16:30:16 - OzoneForecasting - INFO - Успешно: load_demo_data
+2026-09-29 16:30:16 - OzoneForecasting - INFO - Создано демо-данных: 780 записей
+2026-09-29 16:30:16 - OzoneForecasting - INFO - Создание демонстрационных данных ОСО завершена. Размер: (780, 7)
+2026-09-29 16:30:23 - OzoneForecasting - INFO - Приложение завершено
+2026-09-29 16:36:13 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 16:36:13 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 16:36:13 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-09-29 16:36:13 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2026-09-29 16:36:13 - OzoneForecasting - INFO - Интерфейс инициализирован
+2026-09-29 16:36:18 - OzoneForecasting - INFO - Вызов: load_demo_data
+2026-09-29 16:36:18 - OzoneForecasting - INFO - Операция: Создание демонстрационных данных ОСО
+2026-09-29 16:36:18 - OzoneForecasting - INFO - Успешно: load_demo_data
+2026-09-29 16:36:18 - OzoneForecasting - INFO - Создано демо-данных: 780 записей
+2026-09-29 16:36:18 - OzoneForecasting - INFO - Создание демонстрационных данных ОСО завершена. Размер: (780, 7)
+2026-09-29 16:44:05 - OzoneForecasting - INFO - Приложение завершено
+2026-09-29 16:46:17 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 16:46:17 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 16:46:17 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-09-29 16:46:17 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2026-09-29 16:46:17 - OzoneForecasting - INFO - Интерфейс инициализирован
+2026-09-29 16:46:23 - OzoneForecasting - INFO - Вызов: load_demo_data
+2026-09-29 16:46:23 - OzoneForecasting - INFO - Операция: Создание демонстрационных данных ОСО
+2026-09-29 16:46:23 - OzoneForecasting - INFO - Успешно: load_demo_data
+2026-09-29 16:46:23 - OzoneForecasting - INFO - Создано демо-данных: 780 записей
+2026-09-29 16:46:23 - OzoneForecasting - INFO - Создание демонстрационных данных ОСО завершена. Размер: (780, 7)
+2026-09-29 16:47:08 - OzoneForecasting - INFO - Приложение завершено
+2026-09-29 17:13:05 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 17:13:05 - OzoneForecasting - INFO - Запуск приложения
+2026-09-29 17:13:05 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-09-29 17:13:05 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2026-09-29 17:13:06 - OzoneForecasting - INFO - Интерфейс инициализирован
+2026-09-29 17:13:16 - OzoneForecasting - INFO - Вызов: load_demo_data
+2026-09-29 17:13:16 - OzoneForecasting - INFO - Операция: Создание демонстрационных данных ОСО
+2026-09-29 17:13:16 - OzoneForecasting - INFO - Успешно: load_demo_data
+2026-09-29 17:13:16 - OzoneForecasting - INFO - Создано демо-данных: 780 записей
+2026-09-29 17:13:16 - OzoneForecasting - INFO - Создание демонстрационных данных ОСО завершена. Размер: (780, 7)
+2026-09-29 17:13:25 - OzoneForecasting - INFO - Вызов: train_model
+2026-09-29 17:13:25 - OzoneForecasting - INFO - Начало обучения: OzoneHybridModel (Conv1D + LSTM)
+2026-09-29 17:13:25 - OzoneForecasting - INFO - Успешно: train_model
+2026-09-29 17:13:25 - OzoneForecasting - INFO - Вызов: prepare_data
+2026-09-29 17:13:25 - OzoneForecasting - INFO - Данные подготовлены: X=(768, 12, 1), y=(768,)
+2026-09-29 17:13:25 - OzoneForecasting - INFO - Успешно: prepare_data
+2026-09-29 17:13:25 - OzoneForecasting - INFO - Построение модели: (12, 1)
+2026-09-29 17:13:25 - OzoneForecasting - INFO - Начало обучения
+2026-09-29 17:13:52 - OzoneForecasting - INFO - Обучение завершено
+2026-09-29 17:13:53 - OzoneForecasting - INFO - Обучение завершено: MAE=4.975, RMSE=6.379, R2=0.854
+2026-09-29 17:13:53 - OzoneForecasting - INFO - Модель OzoneHybridModel (Conv1D + LSTM) обучена за 0:00:27.710830
+2026-09-29 18:39:36 - OzoneForecasting - INFO - Вызов: load_demo_data
+2026-09-29 18:39:36 - OzoneForecasting - INFO - Операция: Создание демонстрационных данных ОСО
+2026-09-29 18:39:36 - OzoneForecasting - INFO - Успешно: load_demo_data
+2026-09-29 18:39:36 - OzoneForecasting - INFO - Создано демо-данных: 780 записей
+2026-09-29 18:39:36 - OzoneForecasting - INFO - Создание демонстрационных данных ОСО завершена. Размер: (780, 7)
+2026-09-29 18:39:49 - OzoneForecasting - INFO - Вызов: load_demo_data
+2026-09-29 18:39:49 - OzoneForecasting - INFO - Операция: Создание демонстрационных данных ОСО
+2026-09-29 18:39:49 - OzoneForecasting - INFO - Успешно: load_demo_data
+2026-09-29 18:39:49 - OzoneForecasting - INFO - Создано демо-данных: 780 записей
+2026-09-29 18:39:49 - OzoneForecasting - INFO - Создание демонстрационных данных ОСО завершена. Размер: (780, 7)
+2026-09-29 18:39:55 - OzoneForecasting - INFO - Приложение завершено
