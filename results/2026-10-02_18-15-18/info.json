@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-02T18:15:19.060704",
+  "data_file": "C:/Users/Admin/Documents/Ozone2006-2024!.txt",
+  "density_file": "C:/Users/Admin/Documents/Плотность20062024Stretched.txt",
+  "records": 226,
+  "metrics": {
+    "mae": 11.17980392677144,
+    "mse": 211.62998389134037,
+    "rmse": 14.547507824068711,
+    "mape": 3.3020120017470225,
+    "r2": 0.872387773494379,
+    "bias": 0.21404805643781633,
+    "accuracy": 0.9667275932822431
+  }
+}

@@ -86,3 +86,41 @@
 2026-10-02 17:35:40 - OzoneForecasting - INFO - Успешно: forecast
 2026-10-02 17:35:41 - OzoneForecasting - INFO - Успешно: run_forecast
 2026-10-02 17:37:21 - OzoneForecasting - INFO - Приложение завершено
+2026-10-02 17:59:26 - OzoneForecasting - INFO - Запуск приложения
+2026-10-02 17:59:26 - OzoneForecasting - INFO - Запуск приложения
+2026-10-02 17:59:26 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-10-02 17:59:26 - OzoneForecasting - INFO - Инициализирована модель OzoneHybridModel
+2026-10-02 17:59:26 - OzoneForecasting - INFO - Интерфейс инициализирован
+2026-10-02 18:01:58 - OzoneForecasting - INFO - Выбран файл: C:/Users/Admin/Documents/Ozone2006-2024!.txt
+2026-10-02 18:01:58 - OzoneForecasting - INFO - Распознан как реальный формат: True
+2026-10-02 18:01:58 - OzoneForecasting - INFO - Прочитано строк: 6940
+2026-10-02 18:01:58 - OzoneForecasting - INFO - Распознано строк: 6940, пропущено: 0
+2026-10-02 18:01:58 - OzoneForecasting - INFO - Загружено ОСО: 6940 дней -> 228 месяцев
+2026-10-02 18:01:58 - OzoneForecasting - INFO - ОСО загружено: 228 месяцев
+2026-10-02 18:02:02 - OzoneForecasting - INFO - Прочитано строк: 6858
+2026-10-02 18:02:02 - OzoneForecasting - INFO - Распознано строк: 6858, пропущено: 0
+2026-10-02 18:02:02 - OzoneForecasting - INFO - Загружена плотность: 6858 дней -> 226 месяцев
+2026-10-02 18:02:02 - OzoneForecasting - INFO - Объединено: 226 месяцев с ОСО и плотностью
+2026-10-02 18:02:02 - OzoneForecasting - INFO - Плотность добавлена. Итого: 226 записей
+2026-10-02 18:02:02 - OzoneForecasting - INFO - Загружено из C:/Users/Admin/Documents/Ozone2006-2024!.txt
+2026-10-02 18:02:10 - OzoneForecasting - INFO - Вызов: train_model
+2026-10-02 18:02:10 - OzoneForecasting - INFO - Начало обучения: OzoneHybridModel (Conv1D + LSTM)
+2026-10-02 18:02:10 - OzoneForecasting - INFO - Успешно: train_model
+2026-10-02 18:02:10 - OzoneForecasting - INFO - Вызов: prepare_data
+2026-10-02 18:02:10 - OzoneForecasting - INFO - Данные подготовлены: X=(214, 12, 1), y=(214,)
+2026-10-02 18:02:10 - OzoneForecasting - INFO - Успешно: prepare_data
+2026-10-02 18:02:10 - OzoneForecasting - INFO - Построение модели: (12, 1)
+2026-10-02 18:02:10 - OzoneForecasting - INFO - Начало обучения
+2026-10-02 18:02:27 - OzoneForecasting - INFO - Обучение завершено
+2026-10-02 18:02:27 - OzoneForecasting - INFO - Обучение завершено: MAE=11.180, RMSE=14.548, R2=0.872
+2026-10-02 18:02:27 - OzoneForecasting - INFO - Модель OzoneHybridModel (Conv1D + LSTM) обучена за 0:00:17.309780
+2026-10-02 18:11:24 - OzoneForecasting - INFO - Вызов: run_comparison
+2026-10-02 18:11:24 - OzoneForecasting - INFO - Инициализирован OzoneDataLoader
+2026-10-02 18:11:24 - OzoneForecasting - INFO - Успешно: run_comparison
+2026-10-02 18:11:24 - OzoneForecasting - INFO - Инициализирован ModelComparator
+2026-10-02 18:15:18 - OzoneForecasting - INFO - Сохранение в results\2026-10-02_18-15-18
+2026-10-02 18:15:27 - OzoneForecasting - INFO - Вызов: run_forecast
+2026-10-02 18:15:27 - OzoneForecasting - INFO - Вызов: forecast
+2026-10-02 18:15:29 - OzoneForecasting - INFO - Успешно: forecast
+2026-10-02 18:15:32 - OzoneForecasting - INFO - Успешно: run_forecast
+2026-10-02 18:27:38 - OzoneForecasting - INFO - Приложение завершено
